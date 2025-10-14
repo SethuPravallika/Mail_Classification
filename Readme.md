@@ -68,10 +68,10 @@ npm install
 #### Create `.env` file in `/backend`:
 
 ```env
-GOOGLE_CLIENT_ID=54163138077-r1g3ueigs9heje742m887jlpi4rv9556.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_REDIRECT_URI=http://localhost:5001/auth/google/callback
-SESSION_SECRET=5e8ccf103dd1a82b4893c47e939893613d8fc575cf28d782
+SESSION_SECRET=your_session_secret
 ```
 
 #### Run the backend server
